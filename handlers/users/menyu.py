@@ -29,7 +29,7 @@ async def savat(message: types.Message):
 
 @dp.message_handler(text='📞 Aloqa')
 async def aloqa(message: types.Message):
-    await message.answer_photo(photo=open('evos.jpg', 'rb'), caption='''
+    await message.answer_photo(photo=open('images/evos.jpg', 'rb'), caption='''
 Kontaktlar
 Call-центр
 
@@ -74,7 +74,7 @@ async def habar_uchun(message: types.Message,state : FSMContext):
 
 @dp.message_handler(text='ℹ️ Biz haqimizda')
 async def bizhaqimizda(message: types.Message):
-    await message.answer_photo(photo=open('evos2.jpg', 'rb'), caption='''
+    await message.answer_photo(photo=open('images/evos2.jpg', 'rb'), caption='''
 Kompaniyamizning birinchi filiali 2006 yilda ochilgan bo’lib, shu kungacha muvaffaqiyatli faoliyat yuritib kelmoqdaligini bilarmidingiz? 
 15 yil davomida kompaniya avtobus bekatidagi kichik ovqatlanish joyidan zamonaviy, kengaytirilgan tarmoqqa aylandi, u bugungi kunda O‘zbekiston bo‘ylab 60 dan ortiq restoranlarni, o‘zining eng tezkor yetkazib berish xizmatini, zamonaviy IT-infratuzilmasini va 2000 dan ortiq xodimlarni o‘z ichiga oladi.
     
